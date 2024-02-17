@@ -11,11 +11,11 @@
 </head>
 
 <body>
-<header class="px-14 lg:px-32">
+<header class="px-10 lg:px-32">
   <nav class="lg:pt-8">
     <div class="navbar">
-      <div class="navbar-start">
-        <div class="dropdown flex justify-between items-center">
+      <div class="navbar-start flex justify-between items-center lg:justify-normal">
+        <div class="dropdown ">
           <div tabindex="0" role="button" class="btn btn-ghost hover:bg-[#1DD100] lg:hidden">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
           </div>
@@ -42,6 +42,44 @@
     </div>
   </nav>
   <!----------------------------Banner Section Start--------------------- -->
+  <section id="banner" style="background-image: url(./images/banner.png); background-repeat: no-repeat; background-size: cover; background-position: center;" class="rounded-3xl mt-4 w-full py-8 lg:h-[480px] flex flex-col justify-center items-center">
+    <h1 class="font-raleway text-4xl lg:text-6xl font-extrabold lg:leading-[80px] text-white text-center">End-to-End Travel with <br><span class="text-[#1DD100]">P Paribahan</span></h1>
+    <p class="font-inter text-white text-[18px] w-full lg:w-[600px] text-center">Yes, you can run unit tests and view the results directly within the app. The integrated testing features allow for a streamlined .</p>
+    <button class="btn bg-[#1DD100] text-black font-bold text-xl border-none mt-8 hover:bg-[#1DD100]">Buy Ticket</button>
+  </section>
+  <!---------------------Banner Counter---------------- -->
+  <div class="flex justify-center gap-3 lg:gap-6 lg:relative lg:-mt-16 mt-7 mb-28">
+    <!--Counter item -->
+    <div class="rounded-2xl bg-white border-b-2 border-b-[#1DD100] flex items-center gap-3 lg:gap-7 lg:py-6 lg:px-8 ">
+      <div>
+        <img src="images/people.png" alt="">
+      </div>
+      <div>
+        <h3 class="font-inter text-xl lg:text-3xl font-bold text-black">500K+</h3>
+        <p class="font-inter text-[18px] text-[#00000096]">Registered users</p>
+      </div>
+    </div>
+    <!--Counter item -->
+    <div class="rounded-2xl bg-white border-b-2 border-b-[#1DD100] flex items-center gap-3 lg:gap-7 lg:py-6 lg:px-8 ">
+      <div>
+        <img src="images/ticket-cupon.png" alt="">
+      </div>
+      <div>
+        <h3 class="font-inter text-xl lg:text-3xl font-bold text-black">1.7 lacks</h3>
+        <p class="font-inter text-[18px] text-[#00000096]">Tickets sold</p>
+      </div>
+    </div>
+    <!--Counter item -->
+    <div class="rounded-2xl bg-white border-b-2 border-b-[#1DD100] flex items-center gap-3 lg:gap-7 lg:py-6 lg:px-8">
+      <div>
+        <img src="images/stoppage.png" alt="">
+      </div>
+      <div>
+        <h3 class="font-inter text-xl lg:text-3xl font-bold text-black">80K+</h3>
+        <p class="font-inter text-[18px] text-[#00000096]">Rental partners</p>
+      </div>
+    </div>
+  </div>
 </header>
 <main>
 </main>
