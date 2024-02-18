@@ -169,9 +169,9 @@
     <!---------------------------Sit collection----------------- -->
     <div class="flex mx-10 lg:mx-32 mt-5 rounded-2xl bg-white">
       <!------------Sit section--------- -->
-      <div class="border-dashed py-4 border-r-2 w-3/5">
-        <h4 class="py-4 mx-6 font-raleway text-xl text-start text-black font-bold border-dashed border-b-2">Select Your Seat</h4>
-        <div class="flex justify-between py-4 mx-6 border-dashed border-b-2">
+      <div class="border-dashed py-4 lg:border-r-2 lg:w-3/5">
+        <h4 class="py-4 lg:mx-6 font-raleway text-xl text-start text-black font-bold border-dashed border-b-2">Select Your Seat</h4>
+        <div class="flex justify-between py-4 lg:mx-6 border-dashed border-b-2">
           <div class="flex gap-2">
             <img src="images/seat-gray.png" alt="">
             <p class="font-inter font-medium text-[18px] text-gray-400">Available</p>
@@ -181,13 +181,13 @@
             <p class="font-inter font-medium text-[18px] text-[#1DD100]">selected</p>
           </div>
         </div>
-        <div class="mx-6 mt-4 bg-gray-300 flex justify-end w-fit rounded-xl">
-          <div class="py-3 px-8"> 
+        <div class="flex justify-end w-full ">
+          <div class="py-3 px-8 mx-6 mt-4  bg-gray-300 rounded-xl"> 
             <img src="images/Vector (1).svg" alt="">
           </div>
         </div>
          <!----------------------Sits---------------- -->
-      <div class="flex gap-14 mx-6 mt-5">
+      <div class="flex lg:gap-20 lg:mx-6 mt-5">
         <!--A category seats -->
         <div class="grid grid-cols-2 gap-5">
           <!-- seat -->
@@ -251,7 +251,7 @@
           </div>
           <button class="sits btn py-4 px-10 bg-[#F7F8F8] font-inter font-medium text-[18px]">J2</button>
         </div>
-        <!--A category seats -->
+        <!--B category seats -->
         <div class="grid grid-cols-2 gap-5">
           <!-- seat -->
           <button class="sits btn py-4 px-10 bg-[#F7F8F8] font-inter font-medium text-[18px]">A3</button>
@@ -297,8 +297,31 @@
       </div>
       </div>
       <!---------------Passenger information--- -->
-      <div class="w-2/5">
-
+      <div class="w-2/5 py-4  px-8">
+        <h4 class="py-4  font-raleway text-xl text-start text-black font-bold border-dashed border-b-2">Select Your Seat</h4>
+        <!------------------------Pricing section------------------ -->
+        <!--------------------Input field-------------------- -->
+        <form class="space-y-6 w-full">
+          <label class="form-control w-full ">
+            <div class="label">
+              <span class="label-text font-inter font-semibold text-[#030712]">Passenger Name*</span>
+            </div>
+            <input type="text" placeholder="Enter Your Name" class="input input-bordered w-full pl-6 required" />
+          </label>
+          <label class="form-control w-full ">
+            <div class="label">
+              <span class="label-text font-inter font-semibold text-[#030712]">Phone Number*</span>
+            </div>
+            <input type="tel" placeholder="Enter Your Phone Number*" class="input input-bordered pl-6 w-full required" />
+          </label>
+          <label class="form-control w-full ">
+            <div class="label">
+              <span class="label-text font-inter font-semibold text-[#030712]">Email Id</span>
+            </div>
+            <input type="email" placeholder="Enter Your Email Address" class="input input-bordered pl-6 w-full required" />
+          </label>
+          <button type="submit" class="bg-[#1DD100] font-inter font-bold text-white text-2xl w-full rounded-2xl py-3">Next</button>
+        </form>
       </div>
     </div>
   </div>
