@@ -121,11 +121,11 @@
   </section>
   <!----------------------Ticket counter---------------------->
   <div id="ticket-counter-container" class="bg-[#F7F8F8] text-center lg:pb-28 pb-5">
-    <h2 class="font-raleway font-bold text-[40px] text-[#030712] pt-28" >P.H Paribahan</h2>
-    <p class="font-inter font-normal text-xl text-[#0307129d] w-3/5 mx-auto mb-12">Yes, you can run unit tests and view the results directly within the app. The integrated testing features allow for a streamlined .</p>
+    <h2 class="font-raleway font-bold text-[40px] text-[#030712] pt-10 lg:pt-28" >P.H Paribahan</h2>
+    <p class="font-inter font-normal text-xl text-[#0307129d] px-2 w-full lg:w-3/5 mx-auto mb-12">Yes, you can run unit tests and view the results directly within the app. The integrated testing features allow for a streamlined .</p>
     <!-------------------------Bus details------------------ -->
-    <div class="mx-10 lg:mx-32 bg-white flex items-center justify-between gap-4 rounded-2xl relative">
-      <div class="p-14">
+    <div class="mx-2 lg:mx-32 bg-white lg:flex items-center justify-between gap-4 rounded-2xl relative">
+      <div class="p-4 lg:p-14">
         <div class="flex justify-between">
           <div class="flex items-center gap-3">
             <div class="text-5xl">
@@ -136,7 +136,7 @@
               <p class="font-inter text-[18px] text-[#03071276] font-medium">Coach-009-WEB ! AC_Business</p>
             </div>
           </div>
-          <div class="bg-slate-200 p-4 rounded-xl text-[#1DD100] font-inter font-medium text-[18px] flex items-center gap-2">
+          <div class="bg-slate-200 p-2 lg:p-4 rounded-xl text-[#1DD100] font-inter font-medium text-[18px] flex items-center lg:gap-2">
             <img src="images/seat-green.png" alt="">
             <p><span>40</span> seats left</p>
           </div>
@@ -157,19 +157,19 @@
           </div>
         </div>
       </div>
-      <div class="flex flex-col items-center pr-16">
+      <div class="flex flex-col items-center lg:pr-16">
         <img src="images/fare.png" alt="">
         <h4 class="font-raleway text-3xl font-bold text-[#030712]">550 Taka</h4>
         <p class="font-raleway text-2xl font-semibold text-[#03071267]">Per Seat</p>
       </div>
-      <div class="absolute right-44">
+      <div class="hidden lg:block absolute right-44">
         <img src="images/info-devider.png" alt="">
       </div>
     </div>
     <!---------------------------Sit collection----------------- -->
-    <div class="flex mx-10 lg:mx-32 mt-5 rounded-2xl bg-white">
+    <div class="lg:flex mx-2 lg:mx-32 mt-5 rounded-2xl bg-white">
       <!------------Sit section--------- -->
-      <div class="border-dashed py-4 lg:border-r-2 lg:w-3/5">
+      <div class="border-dashed px-2  lg:py-4 lg:border-r-2 w-full lg:w-3/5">
         <h4 class="py-4 lg:mx-6 font-raleway text-xl text-start text-black font-bold border-dashed border-b-2">Select Your Seat</h4>
         <div class="flex justify-between py-4 lg:mx-6 border-dashed border-b-2">
           <div class="flex gap-2">
@@ -187,7 +187,7 @@
           </div>
         </div>
          <!----------------------Sits---------------- -->
-      <div class="flex lg:gap-20 lg:mx-6 mt-5">
+      <div class="flex gap-5 lg:gap-20 lg:mx-6 mt-5">
         <!--A category seats -->
         <div class="grid grid-cols-2 gap-5">
           <!-- seat -->
@@ -297,10 +297,10 @@
       </div>
       </div>
       <!---------------Passenger information--- -->
-      <div class="w-2/5 py-4  px-8">
+      <div class="lg:w-2/5 w-full py-4 px-4 lg:px-8">
         <h4 class="py-4  font-raleway text-xl text-start text-black font-bold border-dashed border-b-2">Select Your Seat</h4>
         <!------------------------Pricing section-------------------->
-        <div id="pricing-container" class="bg-[#F7F8F8] lg:p-8 mt-6 rounded-2xl">
+        <div id="pricing-container" class="bg-[#F7F8F8] p-4 lg:p-8 mt-6 rounded-2xl">
           <div class="flex justify-between border-dashed border-b-2 pb-4">
             <h3 class="font-raleway font-bold text-black">Seats <span id="sit-counting" class="bg-[#1DD100] text-white px-1 rounded-full">2</span></h3>
             <h3 class="font-raleway font-bold text-black">Class</h3>
@@ -360,25 +360,25 @@
 
 <footer class="px-10 lg:px-32 bg-black py-24">
   <div class="flex items-center justify-between border-dashed border-b-2 ">
-    <div class="pb-20">
+    <div class="pb-10">
       <h2 class="font-raleway font-extrabold text-4xl text-white">P-Ticket</h2>
       <p class="font-inter font-medium text-[18px] text-[#ffffffca] max-w-80 mt-4">P-Ticket is a digital platform to make your daily commuting better.</p>
     </div>
-    <div class=" space-y-4">
+    <div class=" space-y-4 pb-10">
       <h2 class="font-raleway font-extrabold text-2xl text-white">Download Our App</h2>
       <div class="border-2 flex items-center p-1 rounded-md ">
         <img src="images/playstore.png" alt="">
         <div class="font-inter text-white font-bold">
           <h4 class="text-xl">Get it on</h4>
-          <h3  class="text-3xl">Google Play</h3>
+          <h3  class=" text-xl lg:text-3xl">Google Play</h3>
         </div>
       </div>
     </div>
   </div>
-  <div class="mt-12 flex justify-between">
+  <div class="mt-12 flex flex-col lg:flex-row text-center items-center gap-5 lg:justify-between">
     <div class="font-inter text-[18px] text-[#ffffffca]">@all rights reserved, P-Ticket services limited.2024</div>
     <div>
-      <ul class="flex gap-5 font-inter *:text-[18px] *:text-[#ffffffca]">
+      <ul class="flex flex-col lg:flex-row justify-center  gap-5 font-inter *:text-[18px] *:text-[#ffffffca]">
         <li>Terms & condition</li>
         <li>Return & refund policy</li>
         <li>Privacy policy</li>
