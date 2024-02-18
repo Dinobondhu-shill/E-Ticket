@@ -23,7 +23,7 @@
               <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
                 stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
-                </svg>
+              </svg>
             </div>
             <ul tabindex="0" class="menu menu-sm dropdown-content  z-[1] p-2 shadow bg-base-100 rounded-box w-52">
               <li><a>Home</a></li>
@@ -333,7 +333,7 @@
             <!-----------------------------Ticket information------------------>
             <div id="sit-details"
               class="grid justify-between grid-cols-3 gap-4 text-[#03071292] font-inter border-b py-5">
-              
+
             </div>
             <!--------------------------Total Price-------------- -->
             <div class="flex justify-between mt-4">
@@ -341,12 +341,15 @@
               <h2 id="total-price" class="font-raleway font-bold text-black">00</h2>
             </div>
             <!-------------------Coupon Input---------------- -->
-            <div id="coupon-input" class="bg-white rounded-2xl p-2  w-full flex justify-between items-center lg:mt-8 relative">
-              
+            <div id="coupon-input"
+              class="bg-white rounded-2xl p-2  w-full flex justify-between items-center lg:mt-8 relative">
+
               <input id="coupon" type="text" placeholder="Have any coupon?" class="outline-none py-3 pl-3 mt-2">
               <button id="apply"
-                class="px-1 lg:px-6 py-3 rounded-2xl  text-white font-raleway font-bold pointer-events-none bg-gray-400 " >Apply</button>
-                <span id="errormsg" class="text-red-600 absolute rounded-lg -top-7 left-2 border border-red-600 px-2 w-full hidden">Invalid Coupon Code</span>
+                class="px-1 lg:px-6 py-3 rounded-2xl  text-white font-raleway font-bold pointer-events-none bg-gray-400 ">Apply</button>
+              <span id="errormsg"
+                class="text-red-600 absolute rounded-lg -top-7 left-2 border border-red-600 px-2 w-full hidden">Invalid
+                Coupon Code</span>
             </div>
             <!---------------------Grand Total DIV------------------ -->
             <div class="flex justify-between mt-5">
@@ -360,13 +363,14 @@
               <div class="label">
                 <span class="label-text font-inter font-semibold text-[#030712]">Passenger Name*</span>
               </div>
-              <input type="text" required  placeholder="Enter Your Name" class="input input-bordered w-full pl-6 required" />
+              <input type="text" required placeholder="Enter Your Name"
+                class="input input-bordered w-full pl-6 required" />
             </label>
             <label class="form-control w-full ">
               <div class="label">
                 <span class="label-text font-inter font-semibold text-[#030712]">Phone Number*</span>
               </div>
-              <input type="tel" required  placeholder="Enter Your Phone Number*"
+              <input type="tel" required placeholder="Enter Your Phone Number*"
                 class="input input-bordered pl-6 w-full required" />
             </label>
             <label class="form-control w-full ">
@@ -376,8 +380,19 @@
               <input type="email" placeholder="Enter Your Email Address"
                 class="input input-bordered pl-6 w-full required" />
             </label>
-            <button type="submit"
-              class="bg-[#1DD100] font-inter font-bold text-white text-2xl w-full rounded-2xl py-3">Next</button>
+            <a href="#my_modal_8" class="btn bg-[#1cd100dc] font-inter font-bold text-white text-2xl w-full rounded-2xl hover:bg-[#1DD100]">Next</a>
+            <div class="modal" role="dialog" id="my_modal_8">
+              <div class="modal-box flex flex-col items-center min-w-96">
+                <img src="images/success.png">
+                <h3 class="font-bold text-2xl py-9 text-[#27AE60]">SUCCESS</h3>
+                <p class="font-inter font-bold text-[18px] ">Thank you for Booking Our Bus Seats. 
+                  We are working hard to find the best service and deals for you.</p>
+                <p class="font-inter font-extralight text-[18px] text-[#4A4A4A] py-5">Shortly you will find a confirmation in your email.</p>
+               <a href="#" class="btn px-10 text-white font-inter font-bold hover:bg-[#27AE60] rounded-3xl bg-[#27AE60]">Continue</a>
+               
+              </div>
+            </div>
+            
           </form>
         </div>
       </div>
