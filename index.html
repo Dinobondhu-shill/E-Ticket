@@ -299,9 +299,40 @@
       <!---------------Passenger information--- -->
       <div class="w-2/5 py-4  px-8">
         <h4 class="py-4  font-raleway text-xl text-start text-black font-bold border-dashed border-b-2">Select Your Seat</h4>
-        <!------------------------Pricing section------------------ -->
+        <!------------------------Pricing section-------------------->
+        <div id="pricing-container" class="bg-[#F7F8F8] lg:p-8 mt-6 rounded-2xl">
+          <div class="flex justify-between border-dashed border-b-2 pb-4">
+            <h3 class="font-raleway font-bold text-black">Seats <span id="sit-counting" class="bg-[#1DD100] text-white px-1 rounded-full">2</span></h3>
+            <h3 class="font-raleway font-bold text-black">Class</h3>
+            <h3 class="font-raleway font-bold text-black">Price</h3>
+          </div>
+          <!-----------------------------Ticket information------------------>
+          <div id="sit-details" class="grid justify-between grid-cols-3 gap-4 text-[#03071292] font-inter border-b py-5">
+              <p>C2</p>
+            <p>Economy</p>
+            <p>550</p>
+              <p>C2</p>
+            <p>Economy</p>
+            <p>550</p>
+          </div>
+          <!--------------------------Total Price-------------- -->
+          <div class="flex justify-between mt-4">
+            <h2 class="font-raleway font-bold text-black">Total Price</h2>
+            <h2 class="font-raleway font-bold text-black">1100</h2>
+          </div>
+          <!-------------------Coupon Input---------------- -->
+          <div id="coupon-input" class="bg-white rounded-2xl p-2 flex justify-between items-center mt-4">
+            <input type="text" placeholder="Have any coupon?" class="outline-none py-3 pl-3">
+            <button class="px-6 py-3 bg-[#1DD100] rounded-2xl text-white font-raleway font-bold">Apply</button>
+          </div>
+          <!---------------------Grand Total DIV------------------ -->
+          <div class="flex justify-between mt-5">
+            <h2 class="font-raleway font-bold text-black">Grand Total</h2>
+            <h2 class="font-raleway font-bold text-black">1100</h2>
+          </div>
+        </div>
         <!--------------------Input field-------------------- -->
-        <form class="space-y-6 w-full">
+        <form class="space-y-6 w-full mt-5">
           <label class="form-control w-full ">
             <div class="label">
               <span class="label-text font-inter font-semibold text-[#030712]">Passenger Name*</span>
