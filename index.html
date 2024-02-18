@@ -345,7 +345,7 @@
               
               <input id="coupon" type="text" placeholder="Have any coupon?" class="outline-none py-3 pl-3 mt-2">
               <button id="apply"
-                class="px-1 lg:px-6 py-3 rounded-2xl bg-[#1DD100] text-white font-raleway font-bold " disabled>Apply</button>
+                class="px-1 lg:px-6 py-3 rounded-2xl  text-white font-raleway font-bold pointer-events-none bg-gray-400 " >Apply</button>
                 <span id="errormsg" class="text-red-600 absolute rounded-lg -top-7 left-2 border border-red-600 px-2 w-full hidden">Invalid Coupon Code</span>
             </div>
             <!---------------------Grand Total DIV------------------ -->
@@ -360,13 +360,13 @@
               <div class="label">
                 <span class="label-text font-inter font-semibold text-[#030712]">Passenger Name*</span>
               </div>
-              <input type="text" placeholder="Enter Your Name" class="input input-bordered w-full pl-6 required" />
+              <input type="text" required  placeholder="Enter Your Name" class="input input-bordered w-full pl-6 required" />
             </label>
             <label class="form-control w-full ">
               <div class="label">
                 <span class="label-text font-inter font-semibold text-[#030712]">Phone Number*</span>
               </div>
-              <input type="tel" placeholder="Enter Your Phone Number*"
+              <input type="tel" required  placeholder="Enter Your Phone Number*"
                 class="input input-bordered pl-6 w-full required" />
             </label>
             <label class="form-control w-full ">

@@ -7,7 +7,7 @@ for (const sit of sits) {
     const sitCategory = sit.innerText;
     if (sitCount <= 3) {
       // change the background color after clicking a ticket button
-      sit.style.backgroundColor = 'red'
+      sit.style.backgroundColor = '#1DD100'
       // increase total ticket number after booking any ticket
       const sitsInNumber = getElementTextById('available-sit');
       const updatedSitNumber = sitsInNumber - 1;
@@ -23,11 +23,14 @@ for (const sit of sits) {
 
       sitCount++;
       appendChild('sit-details', sitCategory)
-      if(sitCount = 1){
+      // coupon code apply button validation
+      if(sitCount > 3){
         const applyButton = document.getElementById('apply');
-        applyButton.removeAttribute('disabled');
-        
+        // applyButton.removeAttribute('disabled');
+        applyButton.classList.remove('pointer-events-none', 'bg-gray-400')
+        applyButton.classList.add('bg-[#1DD100]')
       }
+     
     } else {
       alert('Sorry, You can`t buy More than 4 Tickets');
     }
@@ -35,10 +38,7 @@ for (const sit of sits) {
 
   })
 }
-
-
-
-
+// Coupon code validation section
 const apply = document.getElementById('apply')
 
 apply.addEventListener("click", function () {
